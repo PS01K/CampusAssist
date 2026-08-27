@@ -1,0 +1,184 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Is anyone there?"
+            ],
+            "response": "Hello! I am CampusAssist, your college information assistant. How can I help you today?"
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Thanks, bye",
+                "I'm leaving",
+                "Have a good day"
+            ],
+            "response": "Goodbye! Have a great day. Feel free to ask anytime you need help."
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "Where is the library?",
+                "Where can I find the library?",
+                "Tell me the library location",
+                "What are the library timings?",
+                "When does the library open?",
+                "How do I get a library card?"
+            ],
+            "response": "The college library is located on the ground floor of the main academic building. It is open from 9:00 AM to 5:00 PM on working days. Students can get a library card by submitting a passport-size photo and their student ID at the library counter."
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "How do I get admission?",
+                "What is the admission process?",
+                "Tell me about admissions",
+                "How to apply for admission?",
+                "What documents are needed for admission?",
+                "When does admission start?"
+            ],
+            "response": "Admissions are conducted once a year, typically in June-July. You need to fill out the online application form on the college website and submit documents including mark sheets, ID proof, and passport-size photos. For detailed eligibility criteria, visit the admissions office on the first floor of the admin block."
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "What are the fees?",
+                "How much is the tuition fee?",
+                "Tell me about the fee structure",
+                "What is the fee for engineering?",
+                "How can I pay the fees?",
+                "Is there a fee concession?"
+            ],
+            "response": "The annual tuition fee varies by program. For undergraduate programs it is approximately Rs. 75,000 per year. Fees can be paid online through the student portal or at the accounts office. Fee concessions and scholarships are available for eligible students based on merit and financial need."
+        },
+        {
+            "tag": "examination",
+            "patterns": [
+                "When are the exams?",
+                "Tell me about the exam schedule",
+                "What is the exam pattern?",
+                "How are exams conducted?",
+                "Where can I find the exam timetable?",
+                "What is the passing criteria?"
+            ],
+            "response": "The college follows a semester-based examination system. Internal exams are held mid-semester and external exams at the end of each semester. The exam timetable is published on the college notice board and website two weeks before exams. The minimum passing marks are 40% in each subject."
+        },
+        {
+            "tag": "attendance",
+            "patterns": [
+                "What is the attendance requirement?",
+                "How much attendance is required?",
+                "What happens if I have low attendance?",
+                "Tell me about attendance policy",
+                "Is attendance compulsory?",
+                "How is attendance tracked?"
+            ],
+            "response": "A minimum of 75% attendance is required in each subject to be eligible for the semester examination. Attendance is tracked through daily roll calls. Students with attendance below 75% may be detained and not allowed to sit for exams. Medical leave with valid documentation can be considered."
+        },
+        {
+            "tag": "departments",
+            "patterns": [
+                "What departments are there?",
+                "List the departments",
+                "Tell me about the departments",
+                "Which branches are available?",
+                "What engineering branches are offered?",
+                "How many departments does the college have?"
+            ],
+            "response": "The college has the following departments: Computer Science and Engineering, Electronics and Communication Engineering, Mechanical Engineering, Civil Engineering, Electrical Engineering, and Information Technology. Each department has dedicated labs, faculty, and a departmental library."
+        },
+        {
+            "tag": "events",
+            "patterns": [
+                "What events are happening?",
+                "Tell me about college events",
+                "Is there any fest coming up?",
+                "When is the annual fest?",
+                "Are there any cultural events?",
+                "What about technical events?"
+            ],
+            "response": "The college organizes an annual technical fest 'TechVista' in February and a cultural fest 'Euphoria' in March. Various departmental events, workshops, and guest lectures are held throughout the year. Follow the college notice board and social media pages for the latest updates."
+        },
+        {
+            "tag": "placements",
+            "patterns": [
+                "Tell me about placements",
+                "How are the placements?",
+                "Which companies come for placement?",
+                "What is the placement record?",
+                "How can I register for placements?",
+                "Who handles placements?"
+            ],
+            "response": "The college has an active Training and Placement Cell that coordinates campus recruitment. Companies like TCS, Infosys, Wipro, and Cognizant regularly visit for placements. Students can register for placements through the placement cell office on the second floor of the admin block. The average placement rate is around 80%."
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "Is hostel available?",
+                "Tell me about the hostel",
+                "What are the hostel facilities?",
+                "How much is the hostel fee?",
+                "How do I apply for hostel?",
+                "What are the hostel rules?"
+            ],
+            "response": "The college provides separate hostel facilities for boys and girls within the campus. Hostel fee is approximately Rs. 40,000 per year including mess charges. Hostel rooms are allotted on a first-come, first-served basis. Facilities include Wi-Fi, a common room, and 24-hour security. Apply at the hostel office during admission."
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "Where is the canteen?",
+                "What food is available in the canteen?",
+                "Tell me about the canteen",
+                "What are the canteen timings?",
+                "Is there a mess facility?",
+                "Where can I eat on campus?"
+            ],
+            "response": "The college canteen is located near the main ground, opposite the auditorium. It is open from 8:00 AM to 6:00 PM and serves breakfast, lunch, and snacks at affordable prices. A separate mess facility is available for hostel students."
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact the college?",
+                "What is the college phone number?",
+                "Give me the contact details",
+                "How to reach the administration?",
+                "What is the college email?",
+                "How can I contact the placement cell?"
+            ],
+            "response": "You can contact the college at phone: 011-2345-6789 or email: info@democollege.edu.in. The administration office is open from 9:30 AM to 4:30 PM on working days. For placement queries, email: placements@democollege.edu.in."
+        },
+        {
+            "tag": "college_hours",
+            "patterns": [
+                "What are the college timings?",
+                "When does college start?",
+                "What time do classes begin?",
+                "What are the working hours?",
+                "When does college end?",
+                "Tell me the class schedule"
+            ],
+            "response": "College hours are from 9:00 AM to 4:30 PM, Monday to Friday, and 9:00 AM to 1:00 PM on Saturdays. Each lecture is 50 minutes long with a lunch break from 12:30 PM to 1:15 PM."
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "What courses are offered?",
+                "Tell me about the courses",
+                "Which programs are available?",
+                "Do you offer postgraduate courses?",
+                "What are the available streams?",
+                "Is MBA available?"
+            ],
+            "response": "The college offers undergraduate programs including B.Tech (4 years) and BCA (3 years), as well as postgraduate programs including M.Tech (2 years) and MCA (2 years). Each program follows the curriculum prescribed by the affiliated university. Detailed syllabus is available on the college website."
+        }
+    ]
+}
